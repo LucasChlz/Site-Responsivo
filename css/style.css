@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto'
+}
+
+html,body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+/*mobile*/
+
+nav.mobile{
+    float: right;
+}
+
+nav.mobile ul{
+    display: none;
+    padding-top: 15px;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 0;
+    text-align: center;
+    text-decoration: none;
+    left: 0;
+    background: #2d8d7d;
+}
+
+nav.mobile a{
+    color: white;
+    text-decoration: none;
+}
+
+nav.mobile li{
+    margin-top: 20px;
+}
+
+nav.mobile h3{
+    display: none;
+    position: relative;
+    z-index: 2;
+    top: -35px;
+    cursor: pointer;
+    color: white;
+    font-size: 23px;
+}
+
+/*desktop*/
+
+header{
+    position: relative;
+    z-index:1;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-image: url('../images/bg-header.jpg');
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.bg{
+    position: relative;
+    z-index: 2;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.616)
+}
+
+.menu-top img{
+    position: relative;
+    z-index: 2;
+    top: 5px;
+    margin: 10px 20px;
+    width: 130px;
+    height: 20px;
+}
+
+nav.desktop{
+    float: right;
+}
+
+nav.desktop li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav.desktop a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.btn-nav{
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 0 5px;
+}
+
+/*chamada-header*/
+
+.chamada-header > .container{
+    max-width: 600px;
+}
+
+.chamada-header{
+    max-width: 800px;
+    padding: 100px 0;
+}
+
+.chamada-header h2{
+    font-size: 50px;
+    color: white;
+    font-weight: lighter;
+}
+
+.chamada-header p{
+    color: white;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.chamada-header form{
+    margin-top: 10px;
+}
+
+.chamada-header input[type=text]{
+    width: 320px;
+    height: 40px;
+    border-radius: 100px;
+    border: 0;
+    outline: 0;
+    padding-left: 10px;
+}
+
+.chamada-header input[type=submit]{
+    outline: 0;
+    cursor: pointer;
+    width: 150px;
+    height: 43px;
+    border: 0;
+    background: #2e9281;
+    color: white;
+    border-radius: 100px;
+}
+
+/*chamada body*/
+
+section.chamada-body h3{
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-weight: lighter;
+}
+
+section.chamada-body{
+    height: 500PX;
+}
+
+section.chamada-body > .container{
+    margin-top: 20px;
+    background-image: url('../images/bg\ chamada.jpg');
+    background-size: cover;
+    height: 300px;
+}
+
+.bloco-chamada{
+    box-shadow: -4px -1px 5px 0px rgba(255,255,255,0.54);
+    padding: 10px 30px;
+    float: right;
+    margin-top: 140px;
+    margin-left: 26px;
+    height: 180px;
+    background: white;
+}
+
+.bloco-chamada h2{
+    font-size: 23px;
+    color: #2e9281;
+    font-weight: lighter;
+}
+
+.bloco-chamada p{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #2e9281;
+}
+
+/*section descrição container 2*/
+
+section.descricao-container2{
+    padding: 50px 0;
+}
+
+section.descricao-container2 > .container {
+    max-width: 960px;
+}
+
+.texto-descricao {
+    margin-top: 40px;
+    padding: 0 20px;
+    float: right;
+    width: 55%;
+}
+
+.texto-descricao h2{
+    font-size: 30px;
+    color: #2d8d7d;
+    font-weight: lighter;
+}
+
+.texto-descricao p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #2d8d7d;
+}
+
+.texto-descricao2 {
+    margin-top: 40px;
+    padding: 0 20px;
+    float: left;
+    width: 55%;
+}
+
+.texto-descricao2 h2{
+    font-size: 30px;
+    color: #2d8d7d;
+    font-weight: lighter;
+}
+
+.texto-descricao2 p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #2d8d7d;
+}
+
+/*formulario*/
+
+section.formulario{
+    padding: 30px 0;
+}
+
+section.formulario > .container{
+    max-width: 960px;
+}
+
+section.formulario > .container h2{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+section.formulario form{
+    padding: 20px 50px;
+}
+
+.formulario input[type=text]{
+    width: 100%;
+    border: 0;
+    margin-top: 20px;
+    padding-left: 20px;
+    outline-color: #2d8d7d;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.formulario input[type=submit]{
+    outline: 0;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 100px;
+    background: #2e9281;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    background-origin: 0;
+}
+
+/*footer*/
+
+.box-footer{
+    float: left;
+    width: 33.3%;
+    padding: 50px 0;
+}
+
+.box-footer h2{
+    margin-bottom: 10px;
+    color: #2d8d7d;
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+.box-footer p{
+    color: #2d8d7d;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.box-footer input[type=text]{
+    width: 170px;
+    height: 30px;
+    border-radius: 100px;
+    outline-color: #2d8d7d;
+    padding-left: 10px;
+    border: 0;
+}
+
+.box-footer button{
+    color: #2d8d7d;
+    border: 1px solid #2d8d7d;
+    border-radius: 100px;
+    width: 50px;
+    height: 40px;
+}
+
+.box-footer i{
+    font-size: 26px;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px){
+    nav.desktop{
+        display: none;
+    }
+
+    .chamada-header{
+        text-align: center;
+    }
+
+    nav.mobile h3{
+        display: block;
+    }
+
+    form{
+        width: 100%;
+        
+    }
+
+    section.formulario > .container{
+        width: 100%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 690px){
+    .bloco-chamada{
+        box-shadow: -4px -1px 5px 0px rgba(255,255,255,0.54);
+        padding: 10px 30px;
+        float: right;
+        margin-top: 140px;
+        height: 250px;
+    }
+
+    .bloco-chamada h2{
+        font-size: 20px;
+    }
+
+    .box-footer{
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 970px){
+    .descricao-danki2 img{
+        width: 100%;
+        max-width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .texto-descricao{
+        width: 100%;
+        text-align: center
+    }
+
+    .texto-descricao h2{
+        font-size: 25px;
+    }
+
+    .texto-descricao p{
+        font-size: 18px;
+    }
+
+    .texto-descricao2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .texto-descricao2 h2{
+        font-size: 25px;
+    }
+
+    .texto-descricao2 p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .descricao-container2 img{
+        padding: 20px 0;
+    }
+
+    .chamada-header input[type=submit]{
+        margin-top: 10px;
+    }
+}
+
+
+
